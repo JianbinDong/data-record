@@ -6,7 +6,7 @@
         <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
           <el-menu :default-openeds="['1', '3']">
             <el-submenu index="1">
-              <template slot="title"><i class="el-icon-message"></i>导航一</template>
+              <template slot="title"><i class="iconfont icon-category"></i>导航一</template>
               <el-menu-item-group>
                 <template slot="title">分组一</template>
                 <el-menu-item index="1-1">选项1</el-menu-item>
@@ -67,6 +67,8 @@ export default {
 </script>
 
 <style>
+@import '~@/assets/less/main.less';
+
 html,
 body {
   height: 100%;
